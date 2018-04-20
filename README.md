@@ -1,5 +1,5 @@
 # Jitsi Meet - Secure, Simple and Scalable Video Conferences
-
+dfdf
 Jitsi Meet is an open-source (Apache) WebRTC JavaScript application that uses [Jitsi Videobridge](https://jitsi.org/videobridge) to provide high quality, [secure](#security) and scalable video conferences. You can see Jitsi Meet in action [here at the session #482 of the VoIP Users Conference](http://youtu.be/7vFUVClsNh0).
 
 The Jitsi Meet client runs in your browser, without the need for installing anything on your computer. You can also try it out yourself at https://meet.jit.si .
@@ -90,14 +90,14 @@ cd jitsi-meet
 npm unlink lib-jitsi-meet
 npm install
 ```
-## Running with webpack-dev-server for development   
+## Running with webpack-dev-server for development
 
 Use it at the CLI, type
 ```
 node_modules/.bin/webpack-dev-server
 ```
 
-By default the backend deployment used is `beta.meet.jit.si`, you can point the Jitsi-Meet app at a different backend by using a proxy server. To do this set the WEBPACK_DEV_SERVER_PROXY_TARGET variable, type 
+By default the backend deployment used is `beta.meet.jit.si`, you can point the Jitsi-Meet app at a different backend by using a proxy server. To do this set the WEBPACK_DEV_SERVER_PROXY_TARGET variable, type
 ```
 WEBPACK_DEV_SERVER_PROXY_TARGET=https://your-example-server.com node_modules/.bin/webpack-dev-server
 ```
@@ -122,7 +122,7 @@ network but decrypted on the machine that hosts the bridge.
 
 The Jitsi Meet architecture allows you to deploy your own version, including
 all server components, and in that case your security guarantees will be roughly
-equivalent to these of a direct one-to-one WebRTC call. This is what's unique to 
+equivalent to these of a direct one-to-one WebRTC call. This is what's unique to
 Jitsi Meet in terms of security.
 
 The [meet.jit.si](https://meet.jit.si) service is maintained by the Jitsi team
